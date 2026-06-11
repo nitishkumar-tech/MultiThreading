@@ -19,7 +19,7 @@ namespace MultiThreadings
         }
         internal void vegetablesdisplay()
         {
-            string[] arr = new string[4] { "Onion", "carrot", "bottleguard", "potato" };
+            string[] arr = new string[4] { "Onion", "carrot", "bottlegourd", "potato" };
             foreach (string V in arr)
             {
                 Console.WriteLine("Vegetables :" + V);
