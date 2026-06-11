@@ -15,6 +15,7 @@ namespace MultiThreadings
             foreach (string s in ar)
             {
                 Console.WriteLine("fruits :" + s);
+                Thread.Sleep(1000);//1 sceond
             }
         }
         internal void vegetablesdisplay()
@@ -23,6 +24,7 @@ namespace MultiThreadings
             foreach (string V in arr)
             {
                 Console.WriteLine("Vegetables :" + V);
+                Thread.Sleep(2000);
             }
         }
     }
